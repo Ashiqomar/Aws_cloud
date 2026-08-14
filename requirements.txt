@@ -1,0 +1,29 @@
+# FastAPI & server
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+
+# Database
+sqlalchemy==2.0.35
+psycopg2-binary==2.9.9
+alembic==1.13.2
+
+# Pydantic & config
+pydantic==2.9.2
+pydantic-settings==2.5.2
+python-dotenv==1.0.1
+
+# AWS SDK
+boto3==1.35.19
+botocore==1.35.19
+
+# Async task queue
+celery[redis]==5.4.0
+redis==5.1.1
+
+# Google Gemini AI SDK
+google-genai
+google-generativeai
+
+# Utilities
+httpx==0.27.2
